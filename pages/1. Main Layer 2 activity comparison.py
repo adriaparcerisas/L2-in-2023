@@ -1211,12 +1211,12 @@ fig1.add_trace(go.Line(x=df['date'],
 fig1.add_trace(go.Line(x=df['date'],
                 y=df['nft_bought_per_user'],
                 name='# of nfts',
-                marker_color='rgb(11, 78, 154)'
+                marker_color='rgb(55, 55, 55)'
                 , yaxis='y2')) 
 fig1.add_trace(go.Line(x=df['date'],
                 y=df['defi_txs_user'],
                 name='# of transactions',
-                marker_color='rgb(11, 78, 154)'
+                marker_color='rgb(249, 11, 78)'
                 , yaxis='y2'))
 
 fig1.update_layout(
@@ -1240,7 +1240,7 @@ fig1.update_yaxes(title_text="Daily NFTs/DeFi behavior", secondary_y=True)
 
 fig2 = make_subplots(specs=[[{"secondary_y": True}]])
 
-fig2.add_trace(go.Bar(x=df2['date'],
+fig2.add_trace(go.Line(x=df2['date'],
                 y=df2['avg_tx_per_user'],
                 name='# of transactions',
                 marker_color='rgb(163, 203, 249)'
@@ -1253,12 +1253,12 @@ fig2.add_trace(go.Line(x=df2['date'],
 fig2.add_trace(go.Line(x=df2['date'],
                 y=df2['nft_bought_per_user'],
                 name='# of nfts',
-                marker_color='rgb(11, 78, 154)'
+                marker_color='rgb(55, 55, 55)'
                 , yaxis='y2'))
 fig2.add_trace(go.Line(x=df2['date'],
                 y=df2['defi_txs_user'],
                 name='# of transactions',
-                marker_color='rgb(11, 78, 154)'
+                marker_color='rgb(249, 11, 78)'
                 , yaxis='y2'))
 
 fig2.update_layout(
@@ -1282,7 +1282,7 @@ fig2.update_yaxes(title_text="Daily NFTs/DeFi behavior", secondary_y=True)
 
 fig3 = make_subplots(specs=[[{"secondary_y": True}]])
 
-fig3.add_trace(go.Bar(x=df3['date'],
+fig3.add_trace(go.Line(x=df3['date'],
                 y=df3['avg_tx_per_user'],
                 name='# of transactions',
                 marker_color='rgb(163, 203, 249)'
@@ -1295,12 +1295,12 @@ fig3.add_trace(go.Line(x=df3['date'],
 fig3.add_trace(go.Line(x=df3['date'],
                 y=df3['nft_bought_per_user'],
                 name='# of nfts',
-                marker_color='rgb(11, 78, 154)'
+                marker_color='rgb(55, 55, 55)'
                 , yaxis='y2'))
 fig3.add_trace(go.Line(x=df3['date'],
                 y=df3['defi_txs_user'],
                 name='# of transactions',
-                marker_color='rgb(11, 78, 154)'
+                marker_color='rgb(249, 11, 78)'
                 , yaxis='y2'))
 
 fig3.update_layout(
