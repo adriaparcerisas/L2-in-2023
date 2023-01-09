@@ -749,12 +749,12 @@ fig1 = make_subplots(specs=[[{"secondary_y": True}]])
 fig1.add_trace(go.Bar(x=df['date'],
                 y=df['nft_sales'],
                 name='# of nft sales',
-                marker_color='rgb(229, 141, 146)'
+                marker_color='rgb(177, 128, 233)'
                 , yaxis='y'))
 fig1.add_trace(go.Line(x=df['date'],
                 y=df['cum_sales'],
                 name='# of nft sales',
-                marker_color='rgb(119, 27, 138)'
+                marker_color='rgb(58, 7, 115)'
                 , yaxis='y2'))
 
 fig1.update_layout(
@@ -782,12 +782,12 @@ fig2 = make_subplots(specs=[[{"secondary_y": True}]])
 fig2.add_trace(go.Bar(x=df['date'],
                 y=df2['nft_sales'],
                 name='# of sales',
-                marker_color='rgb(229, 141, 146)'
+                marker_color='rgb(177, 128, 233)'
                 , yaxis='y'))
 fig2.add_trace(go.Line(x=df['date'],
                 y=df2['cum_sales'],
                 name='# of sales',
-                marker_color='rgb(119, 27, 138)'
+                marker_color='rgb(58, 7, 115)'
                 , yaxis='y2'))
 
 fig2.update_layout(
@@ -815,12 +815,12 @@ fig3 = make_subplots(specs=[[{"secondary_y": True}]])
 fig3.add_trace(go.Bar(x=df['date'],
                 y=df3['nft_sales'],
                 name='# of sales',
-                marker_color='rgb(229, 141, 146)'
+                marker_color='rgb(177, 128, 233)'
                 , yaxis='y'))
 fig3.add_trace(go.Line(x=df['date'],
                 y=df3['cum_sales'],
                 name='# of sales',
-                marker_color='rgb(119, 27, 138)'
+                marker_color='rgb(58, 7, 115)'
                 , yaxis='y2'))
 
 fig3.update_layout(
@@ -864,12 +864,12 @@ fig1 = make_subplots(specs=[[{"secondary_y": True}]])
 fig1.add_trace(go.Bar(x=df['date'],
                 y=df['nft_buyers'],
                 name='# of buyers',
-                marker_color='rgb(229, 141, 146)'
+                marker_color='rgb(177, 128, 233)'
                 , yaxis='y'))
 fig1.add_trace(go.Line(x=df['date'],
                 y=df['cum_buyers'],
                 name='# of buyers',
-                marker_color='rgb(119, 27, 138)'
+                marker_color='rgb(58, 7, 115)'
                 , yaxis='y2'))
 
 fig1.update_layout(
@@ -897,12 +897,12 @@ fig2 = make_subplots(specs=[[{"secondary_y": True}]])
 fig2.add_trace(go.Bar(x=df['date'],
                 y=df2['nft_buyers'],
                 name='# of buyers',
-                marker_color='rgb(229, 141, 146)'
+                marker_color='rgb(177, 128, 233)'
                 , yaxis='y'))
 fig2.add_trace(go.Line(x=df['date'],
                 y=df2['cum_buyers'],
                 name='# of buyers',
-                marker_color='rgb(119, 27, 138)'
+                marker_color='rgb(58, 7, 115)'
                 , yaxis='y2'))
 
 fig2.update_layout(
@@ -930,12 +930,12 @@ fig3 = make_subplots(specs=[[{"secondary_y": True}]])
 fig3.add_trace(go.Bar(x=df['date'],
                 y=df3['nft_buyers'],
                 name='# of buyers',
-                marker_color='rgb(229, 141, 146)'
+                marker_color='rgb(177, 128, 233)'
                 , yaxis='y'))
 fig3.add_trace(go.Line(x=df['date'],
                 y=df3['cum_buyers'],
                 name='# of buyers',
-                marker_color='rgb(119, 27, 138)'
+                marker_color='rgb(58, 7, 115)'
                 , yaxis='y2'))
 
 fig3.update_layout(
@@ -975,12 +975,12 @@ fig1 = make_subplots(specs=[[{"secondary_y": True}]])
 fig1.add_trace(go.Bar(x=df['date'],
                 y=df['defi_txs'],
                 name='# of transactions',
-                marker_color='rgb(163, 203, 249)'
+                marker_color='rgb(246, 147, 187)'
                 , yaxis='y'))
 fig1.add_trace(go.Line(x=df['date'],
                 y=df['cum_defi_txs'],
                 name='# of transactions',
-                marker_color='rgb(11, 78, 154)'
+                marker_color='rgb(115, 61, 7)'
                 , yaxis='y2'))
 
 fig1.update_layout(
@@ -1008,12 +1008,12 @@ fig2 = make_subplots(specs=[[{"secondary_y": True}]])
 fig2.add_trace(go.Bar(x=df['date'],
                 y=df2['defi_txs'],
                 name='# of transactions',
-                marker_color='rgb(163, 203, 249)'
+                marker_color='rgb(246, 147, 187)'
                 , yaxis='y'))
 fig2.add_trace(go.Line(x=df['date'],
                 y=df2['cum_defi_txs'],
                 name='# of transactions',
-                marker_color='rgb(11, 78, 154)'
+                marker_color='rgb(115, 61, 7)'
                 , yaxis='y2'))
 
 fig2.update_layout(
@@ -1041,12 +1041,12 @@ fig3 = make_subplots(specs=[[{"secondary_y": True}]])
 fig3.add_trace(go.Bar(x=df['date'],
                 y=df3['defi_txs'],
                 name='# of transactions',
-                marker_color='rgb(163, 203, 249)'
+                marker_color='rgb(246, 147, 187)'
                 , yaxis='y'))
 fig3.add_trace(go.Line(x=df['date'],
                 y=df3['cum_defi_txs'],
                 name='# of transactions',
-                marker_color='rgb(11, 78, 154)'
+                marker_color='rgb(115, 61, 7)'
                 , yaxis='y2'))
 
 fig3.update_layout(
@@ -1090,12 +1090,12 @@ fig1 = make_subplots(specs=[[{"secondary_y": True}]])
 fig1.add_trace(go.Bar(x=df['date'],
                 y=df['defi_users'],
                 name='# of users',
-                marker_color='rgb(229, 141, 146)'
+                marker_color='rgb(246, 147, 187)'
                 , yaxis='y'))
 fig1.add_trace(go.Line(x=df['date'],
                 y=df['cum_defi_users'],
                 name='# of users',
-                marker_color='rgb(119, 27, 138)'
+                marker_color='rgb(115, 61, 7)'
                 , yaxis='y2'))
 
 fig1.update_layout(
@@ -1123,12 +1123,12 @@ fig2 = make_subplots(specs=[[{"secondary_y": True}]])
 fig2.add_trace(go.Bar(x=df['date'],
                 y=df2['defi_users'],
                 name='# of users',
-                marker_color='rgb(229, 141, 146)'
+                marker_color='rgb(246, 147, 187)'
                 , yaxis='y'))
 fig2.add_trace(go.Line(x=df['date'],
                 y=df2['cum_defi_users'],
                 name='# of users',
-                marker_color='rgb(119, 27, 138)'
+                marker_color='rgb(115, 61, 7)'
                 , yaxis='y2'))
 
 fig2.update_layout(
@@ -1156,12 +1156,12 @@ fig3 = make_subplots(specs=[[{"secondary_y": True}]])
 fig3.add_trace(go.Bar(x=df['date'],
                 y=df3['defi_users'],
                 name='# of users',
-                marker_color='rgb(229, 141, 146)'
+                marker_color='rgb(246, 147, 187)'
                 , yaxis='y'))
 fig3.add_trace(go.Line(x=df['date'],
                 y=df3['cum_defi_users'],
                 name='# of users',
-                marker_color='rgb(119, 27, 138)'
+                marker_color='rgb(115, 61, 7)'
                 , yaxis='y2'))
 
 fig3.update_layout(
